@@ -1,6 +1,7 @@
 [
     {
         "name": "Lovely Runner",
+        "index": 1,
         "id": "lovely-runner",
         "img_url": "http://localhost:5173/images/lr.webp",
         "rating": "9.8",
@@ -18,6 +19,7 @@
     },
     {
         "name": "Stranger Things",
+        "index": 2,
         "id": "stranger-things",
         "img_url": "http://localhost:5173/images/st.jpg",
         "rating": "8.7",
@@ -36,6 +38,7 @@
     },
     {
         "name": "The Witcher",
+        "index": 3,
         "id": "the-witcher",
         "img_url": "http://localhost:5173/images/tw.webp",
         "rating": "8.2",
@@ -54,6 +57,7 @@
     },
     {
         "name": "Money Heist",
+        "index": 4,
         "id": "money-heist",
         "img_url": "http://localhost:5173/images/mh.jpg",
         "rating": "8.3",
@@ -72,6 +76,7 @@
     },
     {
         "name": "The Crown",
+        "index": 5,
         "id": "the-crown",
         "img_url": "http://localhost:5173/images/tc.webp",
         "rating": "8.6",
@@ -90,6 +95,7 @@
     },
     {
         "name": "Squid Game",
+        "index": 6,
         "id": "squid-game",
         "img_url": "http://localhost:5173/images/sg.webp",
         "rating": "8.1",
@@ -108,6 +114,7 @@
     },
     {
         "name": "Queen of Tears",
+        "index": 7,
         "id": "queen-of-tears",
         "img_url": "http://localhost:5173/images/qot.jpg",
         "rating": "TBD",

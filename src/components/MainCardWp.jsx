@@ -8,16 +8,17 @@ export default function MainCardWp() {
             <div className="seriesCard_wp">
                 <div className="seriesCard_row">
                     {
-                        seriesData.map((currentElement) => {
+                        seriesData.map((i, index) => {
                             return (
                                 <>
-                                    <BaseCard key={currentElement.id} currentData={currentElement} />
+                                    <BaseCard key={i.index || index} apiData={i} />
                                 </>
                             )
                         })
                     }
                 </div>
             </div>
+
         </>
     )
 }
