@@ -1,0 +1,11 @@
+.seriesCard_wp {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.seriesCard_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

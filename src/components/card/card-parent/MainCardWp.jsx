@@ -1,12 +1,13 @@
-import seriesData from "../api/seriesData.json";
-import BaseCard from "../components/BaseCard";
+import seriesData from "../../../api/seriesData.json";
+import BaseCard from "../card-child/BaseCard";
+import style from "../card-parent/style.module.css";
 
 
 export default function MainCardWp() {
     return (
         <>
-            <div className="seriesCard_wp">
-                <div className="seriesCard_row">
+            <div className={style.seriesCard_wp}>
+                <div className={style.seriesCard_row}>
                     {
                         seriesData.map((i, index) => {
                             return (
